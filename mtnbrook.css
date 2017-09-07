@@ -10,6 +10,14 @@ body {font-family:Verdana, Arial, sans-serif;
            min-width: 750px;
 		   max-width:960px;
 }
+.content {	margin:0 auto;
+		width:85%;
+		padding:20px 0;
+}
+
+.content img {
+	padding : 10px;
+}
 /* Formatting for top banner*/
 #header { margin: 0 auto;
 		width:960px; 
@@ -37,25 +45,55 @@ nav li {/*width:150px; */
 		text-align: center;
 		display:inline-block;
 		color:white;
-        cursor: pointer;
+        cursor: pointer
 		padding: 5px 10px 5px;
 		margin: 0;
 		font-size: 120%;
         background-color: hsla(0, 0%, 70%, 0.3);
 }
-/*formatting for home page content*/
-#main {	margin:0 auto;
-		width:85%;
-		padding:40px 0;
+nav a:link, nav a:visited {
+	color:white;
+	text-decoration:none;
 }
 
+/*formatting for home page content*/
+
+
 #picts{
-	margin: 30px auto;
+	margin: 10px auto;
 	text-align:center;	
 }
 
 #picts img{
 	margin:5px;
+}
+#picts ul{
+	padding:0;
+	margin:0;
+}
+#picts li{
+	list-style-type :none; 
+	text-align: center;
+	display:inline-block;
+	padding: 0;
+}
+
+/*Formatting surrounding page*/
+li {
+	padding-bottom: 10px;
+}
+a:link {
+	color:darkslateblue;
+}
+a:visited {
+	color:darkslategray;
+}
+
+.floatRight{
+	float:right;
+}
+.clearRight{
+	clear:right;
 }
 
 /*footer*/
