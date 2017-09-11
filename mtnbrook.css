@@ -159,7 +159,7 @@ input, textarea{
 }
 .formButton {
 	font-size: 2em;                                            ;
-	/*width: 80px;*/
+	width: auto;
 	display: inline;
 	margin-top: 20px;
 }
