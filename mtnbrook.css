@@ -1,0 +1,181 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+    background-color: #fafafa;
+	line-height:24px;
+	font-size:110%;
+}
+
+#wrapper {
+	background-color: #efefef; 
+    color: #195e86;
+    width: 80%;
+	margin: 0 auto;
+	padding:0;
+    min-width: 750px;
+	max-width:960px;
+	
+}
+.content {	
+	margin:0 auto;
+	width:85%;
+	padding:20px 0;
+}
+
+.content img {
+	padding : 10px;
+}
+/* Formatting for top banner*/
+#headerHP { 
+	margin: 0 auto;
+	width:960px; 
+	height:503px; 
+	background-image: url(pict/headerHP.png); 
+	background-repeat: no-repeat; 
+	padding:0;
+}
+/* not currently needed
+#logo{  position:relative;
+		left: 618px;
+		top:66px;
+} */
+#headerHP nav {	position:relative;
+		left: 0px;
+		top:470px;
+		margin:0;
+		padding:0;
+}
+#header { margin: 0 auto;
+		width:960px; 
+		height:250px; 
+		background-image: url(pict/header2.png); 
+		background-repeat: no-repeat; 
+		padding:0;
+}
+#header nav {	position:relative;
+		left: 0px;
+		top:220px;
+		margin:0;
+		padding:0;
+}
+nav ul{	margin:0;
+		padding:0;
+}
+
+nav li {/*width:150px; */
+		list-style-type :none; 
+		text-align: center;
+		display:inline-block;
+		color:white;
+        cursor: pointer;
+		padding: 5px 10px 5px;
+		margin: 0;
+		font-size: 120%;
+        background-color: hsla(0, 0%, 70%, 0.3);
+}
+nav a:link, nav a:visited {
+	color:white;
+	text-decoration:none;
+}
+
+/*formatting for home page content*/
+#peace {
+	color:firebrick;
+	text-align:center;
+	font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+	line-height: 60px;
+}
+
+#picts{
+	margin: 10px auto;
+	text-align:center;
+	overflow:hidden;
+	height:160px;
+	
+}
+
+#picts img{
+	margin:5px;
+}
+#picts ul{
+	padding:0;
+	margin:0;
+}
+#picts li{
+	list-style-type :none; 
+	text-align: center;
+	display:inline-block;
+	padding: 0;
+}
+
+/*Formatting surrounding page*/
+li {
+	padding-bottom: 10px;
+}
+a:link {
+	color:darkslateblue;
+}
+a:visited {
+	color:darkslategray;
+}
+
+.floatRight{
+	float:right;
+}
+.clearRight{
+	clear:right;
+}
+.floatLeft{
+	float:left;
+}
+.clearLeft{
+	clear:left;
+}
+
+/*formatting Contact us form*/
+
+#map, form{
+	background-color:#ebeade;
+	padding: 10px;
+	width: 600px;
+	margin: 20px auto;
+}
+.formLabel{
+	float:left;
+	width:100px;
+	clear:left;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+input, textarea{
+	margin-top: 10px;
+	display:block;
+}
+#name, #email {
+	width: 250px;
+	line-height: 24px;
+	font-size:100%;
+}
+.formButton {
+	font-size: 2em;                                            ;
+	width: auto;
+	display: inline;
+	margin-top: 20px;
+}
+#buttons{
+	text-align: center;
+}
+#underconst {
+	margin: 0 auto;
+	width: 600px;
+	
+}
+
+
+/*footer*/
+#footer{
+	padding-top: 20px;
+	font-size:80%; 
+	text-align:center;
+}
